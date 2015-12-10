@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Lab3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BIT_REG_TEST_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BIT_REG_TEST_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="D_FLIP_FLOP2_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FSM_TEST_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="SHIFT_REG_TEST_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Traffic.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Traffic.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Traffic.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Traffic_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="bit_register_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="bit_register_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="d_flip_flop_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="traffic_test_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="traffic_test_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="traffic_test_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="traffic_test_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1447899740" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1447899740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447970632" xil_pn:in_ck="-9029017259455611897" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1447970632">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BIT_REG_TEST.v"/>
+      <outfile xil_pn:name="D_FLIP_FLOP2.v"/>
+      <outfile xil_pn:name="FSM_3.v"/>
+      <outfile xil_pn:name="FSM_TEST.v"/>
+      <outfile xil_pn:name="SHIFT_REG.v"/>
+      <outfile xil_pn:name="SHIFT_REG_TEST.v"/>
+      <outfile xil_pn:name="Traffic.v"/>
+      <outfile xil_pn:name="bit_register.v"/>
+      <outfile xil_pn:name="d_latch.v"/>
+      <outfile xil_pn:name="dff_test.v"/>
+      <outfile xil_pn:name="traffic_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447973326" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3315989286631471605" xil_pn:start_ts="1447973326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447973326" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2523513414274030483" xil_pn:start_ts="1447973326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447899740" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4698671152729511800" xil_pn:start_ts="1447899740">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1447970632" xil_pn:in_ck="-9029017259455611897" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1447970632">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="BIT_REG_TEST.v"/>
+      <outfile xil_pn:name="D_FLIP_FLOP2.v"/>
+      <outfile xil_pn:name="FSM_3.v"/>
+      <outfile xil_pn:name="FSM_TEST.v"/>
+      <outfile xil_pn:name="SHIFT_REG.v"/>
+      <outfile xil_pn:name="SHIFT_REG_TEST.v"/>
+      <outfile xil_pn:name="Traffic.v"/>
+      <outfile xil_pn:name="bit_register.v"/>
+      <outfile xil_pn:name="d_latch.v"/>
+      <outfile xil_pn:name="dff_test.v"/>
+      <outfile xil_pn:name="traffic_test.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1447973328" xil_pn:in_ck="-9029017259455611897" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4777314206489775097" xil_pn:start_ts="1447973326">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="traffic_test_beh.prj"/>
+      <outfile xil_pn:name="traffic_test_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1447973328" xil_pn:in_ck="5390816373567935316" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7486635100641868740" xil_pn:start_ts="1447973328">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="traffic_test_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>
